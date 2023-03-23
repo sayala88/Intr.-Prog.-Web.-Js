@@ -1,0 +1,47 @@
+/* ETIQUETA (*) UNIVERSAL */
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: rgb(105, 60, 4);
+    background-color: rgb(236, 17, 152);
+     /* MARGENES */
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid white;
+}
+
+body{
+    background-color: black;
+    color: cyan;
+}
+
+div{
+    background-color: rgb(114, 48, 235);
+}
+
+/* ETIQUETA DESCENDENTE */
+div h2{
+    color: cornsilk;
+    background-color: darkgrey; /* PISA AL Q ESTA DEFINIDO EN EL ELEMENTO DE DIV */
+     /* MARGENES */
+     padding: 20px;
+     margin: 10px;
+     border: 5px solid white;
+
+}
+
+#plata{
+    color:darkgreen ;
+    background-color: darkgrey;
+     /* MARGENES */
+     padding: 20px;
+     margin: 10px;
+     border: 5px solid white;
+ }
+
+.modificarParrafo{
+    color: darksalmon;
+
+}
